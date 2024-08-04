@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: svelte-supabase-todo
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: VITE_SUPABASE_URL
+        value: YOUR_SUPABASE_URL
+      - key: VITE_SUPABASE_ANON_KEY
+        value: YOUR_SUPABASE_ANON_KEY
