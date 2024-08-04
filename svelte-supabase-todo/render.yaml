@@ -6,6 +6,6 @@ services:
     startCommand: npm run start
     envVars:
       - key: VITE_SUPABASE_URL
-        value: YOUR_SUPABASE_URL
+        value: https://neqbbyymktjszhcqbpne.supabase.co
       - key: VITE_SUPABASE_ANON_KEY
-        value: YOUR_SUPABASE_ANON_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5lcWJieXlta3Rqc3poY3FicG5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI3NTA3OTgsImV4cCI6MjAzODMyNjc5OH0.Z453KQ3c1D-N3djkcjWacyI3pngnSXapToE5P9tku24
